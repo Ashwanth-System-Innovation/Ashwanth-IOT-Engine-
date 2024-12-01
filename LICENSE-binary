@@ -200,73 +200,107 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
---------------------------------------------------------------------------------
-                           APACHE IOTDB SUBCOMPONENTS
---------------------------------------------------------------------------------
 
-The following files include code modified from Apache HBase project.
+================================================================
+APACHE IOTDB SUBCOMPONENTS:
 
-./iotdb-core/confignode/src/main/java/org/apache/iotdb/confignode/procedure/Procedure.java
-./iotdb-core/confignode/src/main/java/org/apache/iotdb/confignode/procedure/ProcedureExecutor.java
-./iotdb-core/confignode/src/main/java/org/apache/iotdb/confignode/procedure/impl/StateMachineProcedure.java
-./iotdb-core/confignode/src/main/java/org/apache/iotdb/confignode/procedure/TimeoutExecutorThread.java
-./iotdb-core/confignode/src/main/java/org/apache/iotdb/confignode/procedure/StoppableThread.java
+Apache IoTDB project includes a number of submodules with separate copyright notices
+and license terms. Your use of these submodules is subject to the terms and
+conditions of the following licenses.
 
-Project page: https://github.com/apache/hbase
-License: https://github.com/apache/hbase/blob/master/LICENSE.txt
+================================================================
 
---------------------------------------------------------------------------------
+The binary distribution of this product bundles these dependencies under the
+following license. See licenses/ for text of these licenses.
 
-The following files include code modified from Largest-Triangle downsampling algorithm implementations for Java8 project,
-which is under Apache License 2.0:
+Apache Software Foundation License 2.0
+--------------------------------------
+commons-cli:commons-cli:1.5.0
+commons-codec:commons-codec:1.16.1
+org.apache.commons:commons-collections4:4.4
+commons-io:commons-io:2.14.0
+org.apache.commons:commons-lang3:3.13.0
+com.nimbusds:content-type:2.2
+com.google.code.gson:gson:2.10.1
+com.google.guava.guava:32.1.2-jre
+com.fasterxml.jackson.core:jackson-annotations:2.15.4
+com.fasterxml.jackson.core:jackson-core:2.15.4
+com.fasterxml.jackson.core:jackson-databind:2.15.4
+jakarta.inject:jakarta.inject:2.6.1
+org.lz4:lz4-java:1.8.0
+com.github.stephenc.jcip:jcip-annotations:1.0-1
+com.github.ben-manes.caffeine:caffeine:2.9.3
+org.eclipse.jetty:jetty-http:9.4.56.v20240826
+org.eclipse.jetty:jetty-io:9.4.56.v20240826
+org.eclipse.jetty:jetty-security:9.4.56.v20240826
+org.eclipse.jetty:jetty-server:9.4.56.v20240826
+org.eclipse.jetty:jetty-servlet:9.4.56.v20240826
+org.eclipse.jetty:jetty-util:9.4.56.v20240826
+io.jsonwebtoken:jjwt-api:0.11.5
+io.jsonwebtoken:jjwt-impl:0.11.5
+io.jsonwebtoken:jjwt-jackson:0.11.5
+net.minidev:json-smart:2.5.0
+com.google.code.findbugs:jsr305:3.0.2
+com.nimbusds:lang-tag:1.7
+com.librato.metrics:librato-java:2.1.0
+org.apache.thrift:libthrift:0.14.1
+io.dropwizard.metrics:metrics-core:4.2.19
+io.dropwizard.metrics:metrics-jvm:3.2.2
+com.librato.metrics:metrics-librato:5.1.0
+de.fraunhofer.iosb.io.moquette:moquette-broker:0.17
+io.netty:netty-buffer:4.1.110.Final
+io.netty:netty-codec:4.1.110.Final
+io.netty:netty-codec-http:4.1.110.Final
+io.netty:netty-codec-mqtt:4.1.110.Final
+io.netty:netty-common:4.1.110.Final
+io.netty:netty-handler:4.1.110.Final
+io.netty:netty-resolver:4.1.110.Final
+io.netty:netty-transport:4.1.110.Final
+io.netty:netty-transport-native-epoll:4.1.110.Final:linux-x86_64
+io.netty:netty-transport-native-unix-common:4.1.110.Final
+com.nimbusds:nimbus-jose-jwt:9.37.3
+com.nimbusds:oauth2-oidc-sdk:10.15
+org.osgi:org.osgi.core:7.0.0
+org.osgi:osgi.cmpn:7.0.0
+org.ops4j.pax.jdbc:pax-jdbc-common:1.5.6
+org.xerial.snappy:snappy-java:1.1.10.5
+io.airlift.airline:0.9
+net.minidev:accessors-smart:2.5.0
 
-./library-udf/src/main/java/org/apache/iotdb/library/dprofile/util/Area.java
-./library-udf/src/main/java/org/apache/iotdb/library/dprofile/util/Bucket.java
-./library-udf/src/main/java/org/apache/iotdb/library/dprofile/util/LTThreeBuckets.java
-./library-udf/src/main/java/org/apache/iotdb/library/dprofile/util/OnePassBucketizer.java
-./library-udf/src/main/java/org/apache/iotdb/library/dprofile/util/SlidingCollector.java
-./library-udf/src/main/java/org/apache/iotdb/library/dprofile/util/Triangle.java
 
-Copyright: 2016 Guillermo Gutierrez Almazor
-Project page: https://github.com/ggalmazor/lt_downsampling_java8
-License: https://github.com/ggalmazor/lt_downsampling_java8/blob/main/LICENSE
+BSD 3-Clause
+------------
+org.antlr:antlr-runtime:4.9.3
+org.ow2.asm:asm:9.3
+org.jline:jline:3.26.2
 
---------------------------------------------------------------------------------
 
-The following files include code modified from Micrometer project.
+BSD 2-Clause
+------------
+com.github.luben:zstd-jni:1.5.6-3
 
-./iotdb-core/metrics/interface/src/main/java/org/apache/iotdb/metrics/metricsets/jvm/JvmClassLoaderMetrics.java
-./iotdb-core/metrics/interface/src/main/java/org/apache/iotdb/metrics/metricsets/jvm/JvmCompileMetrics.java
-./iotdb-core/metrics/interface/src/main/java/org/apache/iotdb/metrics/metricsets/jvm/JvmGcMetrics.java
-./iotdb-core/metrics/interface/src/main/java/org/apache/iotdb/metrics/metricsets/jvm/JvmMemoryMetrics.java
-./iotdb-core/metrics/interface/src/main/java/org/apache/iotdb/metrics/metricsets/jvm/JvmThreadMetrics.java
-./iotdb-core/metrics/interface/src/main/java/org/apache/iotdb/metrics/metricsets/JvmUtils.java
-./iotdb-core/metrics/interface/src/main/java/org/apache/iotdb/metrics/logback/logback/LogbackMetrics.java
 
-Copyright: 2017 VMware
-Project page: https://github.com/micrometer-metrics/micrometer
-License: https://github.com/micrometer-metrics/micrometer/blob/main/LICENSE
+MIT License
+------------
+org.slf4j:slf4j-api:2.0.9
+com.bugsnag:bugsnag:3.7.2
 
---------------------------------------------------------------------------------
 
-The following files include code modified from Trino project.
+EPL 1.0
+------------
+com.h2database:h2-mvstore:2.1.212
+ch.qos.logback:logback-classic:1.3.14
+ch.qos.logback:logback-core:1.3.14
 
-./iotdb-core/datanode/src/main/java/org/apache/iotdb/db/queryengine/execution/QueryState.java
-./iotdb-core/datanode/src/main/java/org/apache/iotdb/db/queryengine/execution/StateMachine.java
-./iotdb-core/datanode/src/main/java/org/apache/iotdb/db/queryengine/execution/driver/Driver.java
-./iotdb-core/datanode/src/main/java/org/apache/iotdb/db/queryengine/execution/fragment/FragmentInstanceState.java
-./iotdb-core/datanode/src/main/java/org/apache/iotdb/db/queryengine/execution/fragment/FragmentInstanceStateMachine.java
-./iotdb-core/datanode/src/main/java/org/apache/iotdb/db/queryengine/plan/planner/LocalExecutionPlanner.java
 
-Trino is open source software licensed under the Apache License 2.0 and supported by the Trino Software Foundation.
-Project page: https://github.com/trinodb/trino
-License: https://github.com/trinodb/trino/blob/master/LICENSE
+CDDL 1.1
+------------
+jakarta.annotation:jakarta.annotation-api:1.3.5
+jakarta.servlet:jakarta.servlet-api:4.0.4
+javax.xml.bind:jaxb-api:2.4.0-b180725.0427
+org.glassfish.jaxb:jaxb-runtime:2.3.6
 
---------------------------------------------------------------------------------
 
-The following files include code modified from Apache Kafka project.
-
-./iotdb-client/session/src/main/java/org/apache/iotdb/session/subscription/util/PollTimer.java
-
-Project page: https://github.com/apache/kafka
-License: https://github.com/apache/kafka/blob/trunk/LICENSE
+Public Domain
+------------
+org.tukaani:xz:1.9
