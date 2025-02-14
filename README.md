@@ -19,7 +19,7 @@
     
 
 -->
-https://github.com/user-attachments/assets/6a879244-d9de-426e-9bd2-bc4f41e6c1de 
+
 
 [English](./README.md) | [中文](./README_ZH.md)
 
