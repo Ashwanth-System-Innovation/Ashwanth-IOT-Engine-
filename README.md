@@ -23,7 +23,7 @@
 
 [English](./README.md) | [中文](./README_ZH.md)
 
-# IoTDB
+# Ashwanth IoTDB
 [![Unit-Test](https://github.com/apache/iotdb/actions/workflows/unit-test.yml/badge.svg)](https://github.com/apache/iotdb/actions/workflows/unit-test.yml)
 [![codecov](https://codecov.io/github/apache/iotdb/graph/badge.svg?token=ejF3UGk0Nv)](https://codecov.io/github/apache/iotdb)
 [![GitHub release](https://img.shields.io/github/release/apache/iotdb.svg)](https://github.com/apache/iotdb/releases)
